@@ -10,7 +10,7 @@ public class TestController {
 	
 	@GetMapping("/hello")
 	public String hello() {
-		return "CI/CD Working \n New Changes added";
+		return "CI/CD Working \n New Changes added /n Polling checking ";
 	}
 
 }
