@@ -10,7 +10,7 @@ public class TestController {
 	
 	@GetMapping("/hello")
 	public String hello() {
-		return "CI/CD Working \n New Changes added /n Polling checking ";
+		return "CI/CD Using Jenkinsfile in Project ";
 	}
 
 }
